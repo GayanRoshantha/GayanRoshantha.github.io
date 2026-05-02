@@ -287,15 +287,6 @@ input, select, textarea {
 		text-align: right;
 	}
 
-	.image-row {
-   		display: flex;
-    	gap: 20px;
-	}
-
-	.image-row .image {
-    	flex: 1;
-	}
-
 	input, select, textarea {
 		color: #212931;
 	}
@@ -4696,3 +4687,13 @@ input, select, textarea {
 		}
 
 	}
+
+/* === Custom: Two images in one row === */
+.image-row {
+    display: flex;
+    gap: 20px;
+}
+
+.image-row .image {
+    flex: 1;
+}
