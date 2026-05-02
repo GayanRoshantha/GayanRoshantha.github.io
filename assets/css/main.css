@@ -1062,8 +1062,14 @@ input, select, textarea {
 							padding-top: 3rem;
 						}
 					/* === Custom: Two images in one row === */
+					/* === Custom: Two images in one row === */
 					.image-row {
-    					flex-direction: column;
+    					display: flex;
+    					gap: 20px;
+					}
+
+					.image-row .image {
+    						flex: 1;
 					}
 		}
 
