@@ -564,6 +564,15 @@ input, select, textarea {
 				.row.gtr-200.gtr-uniform > * {
 					padding-top: 3rem;
 				}
+				/* === Custom: Two images in one row === */
+					.image-row {
+    					display: flex;
+    					gap: 20px;
+					}
+
+					.image-row .image {
+    						flex: 1;
+					}
 
 		@media screen and (min-width: 1680px) {
 
