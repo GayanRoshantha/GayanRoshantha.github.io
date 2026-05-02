@@ -1564,9 +1564,6 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 3rem;
 						}
-				.image-row {
-    					flex-direction: column;
-				}
 
 		}
 
@@ -1812,9 +1809,6 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 3rem;
 						}
-				.image-row {
-    					flex-direction: column;
-				}
 
 		}
 
