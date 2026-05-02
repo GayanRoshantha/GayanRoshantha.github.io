@@ -1063,14 +1063,8 @@ input, select, textarea {
 						}
 					/* === Custom: Two images in one row === */
 					.image-row {
-    					display: flex;
-    					gap: 20px;
+    					flex-direction: column;
 					}
-
-					.image-row .image {
-    						flex: 1;
-					}
-
 		}
 
 		@media screen and (max-width: 980px) {
@@ -1315,6 +1309,10 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 3rem;
 						}
+					/* === Custom: Two images in one row === */
+					.image-row {
+    					flex-direction: column;
+					}
 
 		}
 
@@ -1560,6 +1558,9 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 3rem;
 						}
+				.image-row {
+    					flex-direction: column;
+				}
 
 		}
 
@@ -1805,6 +1806,9 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 3rem;
 						}
+				.image-row {
+    					flex-direction: column;
+				}
 
 		}
 
