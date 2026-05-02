@@ -564,15 +564,6 @@ input, select, textarea {
 				.row.gtr-200.gtr-uniform > * {
 					padding-top: 3rem;
 				}
-				/* === Custom: Two images in one row === */
-					.image-row {
-    					display: flex;
-    					gap: 20px;
-					}
-
-					.image-row .image {
-    						flex: 1;
-					}
 
 		@media screen and (max-width: 1680px) {
 
@@ -816,15 +807,7 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 3rem;
 						}
-					/* === Custom: Two images in one row === */
-					.image-row {
-    					display: flex;
-    					gap: 20px;
-					}
 
-					.image-row .image {
-    						flex: 1;
-					}
 
 		}
 
@@ -1072,14 +1055,7 @@ input, select, textarea {
 						}
 					/* === Custom: Two images in one row === */
 					/* === Custom: Two images in one row === */
-					.image-row {
-    					display: flex;
-    					gap: 20px;
-					}
 
-					.image-row .image {
-    						flex: 1;
-					}
 		}
 
 		@media screen and (max-width: 980px) {
@@ -4715,3 +4691,27 @@ input, select, textarea {
 		}
 
 	}
+				/* === Custom: Two images in one row === */
+		.image-row {
+		    display: flex;
+		    flex-direction: row;
+		    gap: 20px;
+		    width: 100%;
+		}
+		
+		.image-row .image {
+		    flex: 1;
+		    margin: 0;
+		}
+		
+		.image-row .image img {
+		    width: 100%;
+		    height: auto;
+		}
+		
+		/* Mobile: stack images */
+		@media screen and (max-width: 736px) {
+		    .image-row {
+		        flex-direction: column;
+		    }
+		}
